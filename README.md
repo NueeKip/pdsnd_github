@@ -10,10 +10,10 @@ This project contains the python script is written for Udacity's Data Analyst Na
 ### Files used
 Python Script to Explore US Bikeshare Data <br>
 ./Bikeshare.py
-### other required files
-new_york_city.csv
-chicago.csv
-washington.csv
+### other required files (not in project)
+new_york_city.csv <br>
+chicago.csv <br>
+washington.csv <br>
 
 ### How to run the script
 You can run the script using a Python integrated development environment (IDE) such as Spyder. To install Spyder, you will need to download the Anaconda installer. This script is written in Python 3, so you will need the Python 3.x version of the installer. After downloading and installing Anaconda, you will find the Spyder IDE by opening Anaconda Navigator.
