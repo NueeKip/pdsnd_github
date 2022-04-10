@@ -41,7 +41,7 @@ def RawData():
         washington = pd.read_csv(CITY_DATA["washington"])
         display(washington)
     except ModuleNotFoundError:
-        print('Sorry, The module IPython is required to display data')
+        print('Sorry, The module IPython is required to display data, please download Ipython to load this data')
 
 
 def get_filters():
