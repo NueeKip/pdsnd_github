@@ -34,8 +34,8 @@ https://stackoverflow.com/questions/29366572/pandas-how-to-filter-most-frequent-
 <br>
 Filter date:
 https://stackoverflow.com/questions/29370057/select-dataframe-rows-between-two-dates
-Check validity of date:
 <br>
+Check validity of date:
 https://stackoverflow.com/questions/9987818/in-python-how-to-check-if-a-date-is-valid/9987935
 <br>
 Add a day to a date:
