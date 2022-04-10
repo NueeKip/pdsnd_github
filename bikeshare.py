@@ -17,11 +17,11 @@ width = os.get_terminal_size().columns
 
 
 def greeting():
-    currentTime = datetime.datetime.now()
-    currentTime.hour
-    if currentTime.hour < 12:
+    current_time = datetime.datetime.now()
+    current_time.hour
+    if current_time.hour < 12:
         print('Good morning there!'.center(width))
-    elif 12 <= currentTime.hour < 18:
+    elif 12 <= current_time.hour < 18:
         print('Good afternoon there!.'.center(width))
     else:
         print('Good evening there!'.center(width))
@@ -126,7 +126,7 @@ def load_data(city, month, day):
 
     return df
 
-
+# This function maps the day number to corresponding date 
 def map_day_to_text(day):
     """
     Method to help map each day in int to a corresponding day in string
@@ -146,12 +146,12 @@ def map_day_to_text(day):
     }
     return day_mapper[day]
 
-
+# This function maps month to its month number
 def map_month_to_text(month):
     """
     Method to help map each month in int to a corresponding month in string
     :param
-     day(int): input the int mont
+     day(int): input the int month
     :return:
      string:  correct month in string(Month always ends at june)
     """
