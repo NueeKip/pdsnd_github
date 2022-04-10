@@ -44,5 +44,5 @@ Set column widths:
 https://pandas.pydata.org/pandas-docs/stable/options.html
 https://pandas.pydata.org/pandas-docs/stable/generated/pandas.set_option.html
 
-### More details in the documentation branch
+### More details in the documentation branch ...
 
