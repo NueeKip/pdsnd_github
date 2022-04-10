@@ -126,7 +126,7 @@ def load_data(city, month, day):
 
     return df
 
-
+# This function maps the day number to corresponding date 
 def map_day_to_text(day):
     """
     Method to help map each day in int to a corresponding day in string
@@ -146,12 +146,12 @@ def map_day_to_text(day):
     }
     return day_mapper[day]
 
-
+# This function maps month to its month number
 def map_month_to_text(month):
     """
     Method to help map each month in int to a corresponding month in string
     :param
-     day(int): input the int mont
+     day(int): input the int month
     :return:
      string:  correct month in string(Month always ends at june)
     """
