@@ -14,7 +14,7 @@ chicago.csv <br>
 washington.csv <br>
 
 <br>
-### Credits
+### Credits and References
 Resources referred to complete this project
 Use parse_dates to recognize datetime columns:
 https://stackoverflow.com/questions/21269399/datetime-dtypes-in-pandas-read-csv
