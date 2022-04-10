@@ -13,7 +13,6 @@ new_york_city.csv <br>
 chicago.csv <br>
 washington.csv <br>
 
-<br>
 ### Credits and References
 Resources referred to complete this project
 Use parse_dates to recognize datetime columns:
