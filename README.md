@@ -8,7 +8,7 @@ This project contains the python script is written for Udacity's Data Analyst Na
 ### Files used
 Python Script to Explore US Bikeshare Data <br>
 ./Bikeshare.py
-other required files (not in project)
+###other required files (not in project)
 new_york_city.csv <br>
 chicago.csv <br>
 washington.csv <br>
