@@ -348,10 +348,10 @@ def main():
 
 
 if __name__ == "__main__":
-    # To handle exit
+    # To handle the keyboard exit
     try:
         main()
-    except KeyboardInterrupt:
+    except:
         print('Interrupted')
         try:
             sys.exit(0)
