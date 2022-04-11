@@ -24,7 +24,7 @@ def greeting():
     elif 12 <= currentTime.hour < 18:
         print('Good afternoon there !.'.center(width))
     else:
-        print('Good evening there, welcome to data analysis!'.center(width))
+        print('Good evening there!'.center(width))
 
 
 # Function to display all data (requires IPython module).
