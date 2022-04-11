@@ -54,6 +54,8 @@ http://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.str.cat.html
 Set column widths:
 https://pandas.pydata.org/pandas-docs/stable/options.html
 https://pandas.pydata.org/pandas-docs/stable/generated/pandas.set_option.html
+### Other pandas and numpy functions:
 
+Lessons in the Introduction to Data Analysis section of Udacity's Data Aanalyst Nanodegree (DAND)
 
 
