@@ -1,15 +1,24 @@
 ### Created on 11th April 2022
 
 ## Explore-US-Bikeshare-Data Analysis
-This is a project facilitated by Udacity it contains data that is provided by Motivate, which is a bike share system provider for many cities in the United States. The data files for all three cities contain columns and data to work on
-
+This is a project facilitated by Udacity it contains data, which is a bike share system provider for many cities in the United States. The data files for all three cities contain columns and data to work on
 
 ## Description
 This project contains the python script is written for Udacity's Data Analyst Nanodegree and is used to explore data related to bike share systems for Chicago, New York City, and Washington. It imports data from csv files and compute descriptive statistics from the data. It also takes in users' raw input to create an interactive experience in the terminal to present these statistics.
 
 ## How to run the script
 You can run the script using a Python integrated development environment (IDE) such as Spyder. To install Spyder, you will need to [download the Anaconda installer](https://www.anaconda.com/download/). This script is written in Python 3, so you will need the Python 3.x version of the installer. After downloading and installing Anaconda, you will find the Spyder IDE by opening Anaconda Navigator.
+### Dataset description (Columns)
+Start Time
+End Time
+Trip Duration (in seconds)
+Start Station
+End Station
+User Type (Subscriber or Customer)
+The Chicago and New York City files also contain the following two columns:
 
+Gender
+Birth Year
 ## Files used
 Python Script to Explore US Bikeshare Data <br>
 ./Bikeshare.py
