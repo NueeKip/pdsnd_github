@@ -17,14 +17,14 @@ width = os.get_terminal_size().columns
 
 
 def greeting():
-    currentTime = datetime.datetime.now()
-    currentTime.hour
-    if currentTime.hour < 12:
-        print('Good morning there !'.center(width))
-    elif 12 <= currentTime.hour < 18:
-        print('Good afternoon there !.'.center(width))
+    current_time = datetime.datetime.now()
+    current_time.hour
+    if current_time.hour < 12:
+        print('Good morning there, welcome !'.center(width))
+    elif 12 <= current_time.hour < 18:
+        print('Good afternoon there, welcome !.'.center(width))
     else:
-        print('Good evening there!'.center(width))
+        print('Good evening there, welcome !'.center(width))
 
 
 # Function to display all data (requires IPython module).
@@ -348,10 +348,10 @@ def main():
 
 
 if __name__ == "__main__":
-    # To handle exit
+    # To handle the keyboard exit
     try:
         main()
-    except KeyboardInterrupt:
+    except:
         print('Interrupted')
         try:
             sys.exit(0)
