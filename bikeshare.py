@@ -17,11 +17,11 @@ width = os.get_terminal_size().columns
 
 
 def greeting():
-    currentTime = datetime.datetime.now()
-    currentTime.hour
-    if currentTime.hour < 12:
+    current_time = datetime.datetime.now()
+    current_time.hour
+    if current_time.hour < 12:
         print('Good morning there, welcome !'.center(width))
-    elif 12 <= currentTime.hour < 18:
+    elif 12 <= current_time.hour < 18:
         print('Good afternoon there, welcome !.'.center(width))
     else:
         print('Good evening there, welcome !'.center(width))
